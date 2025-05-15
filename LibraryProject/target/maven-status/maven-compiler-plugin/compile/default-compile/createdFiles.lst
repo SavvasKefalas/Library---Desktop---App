@@ -1,0 +1,8 @@
+com\kefalas\library\models\Book.class
+com\kefalas\library\models\Member.class
+com\kefalas\library\app\Main.class
+com\kefalas\App.class
+com\kefalas\library\models\Loan.class
+com\kefalas\library\database\DatabaseConnection.class
+com\kefalas\library\operations\Library.class
+com\kefalas\library\operations\BookOperations.class

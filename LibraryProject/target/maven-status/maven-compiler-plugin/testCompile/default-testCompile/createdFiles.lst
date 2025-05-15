@@ -1,0 +1,8 @@
+com\kefalas\library\models\MemberTest.class
+com\kefalas\library\database\DatabaseConnectionTest.class
+com\kefalas\library\app\MainTest.class
+com\kefalas\library\operations\LibraryTest.class
+com\kefalas\library\models\BookTest.class
+com\kefalas\library\models\LoanTest.class
+com\kefalas\library\operations\BookOperationsTest.class
+com\kefalas\AppTest.class
