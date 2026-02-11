@@ -1,44 +1,37 @@
-Library Desktop Application
-Overview
+# Library Desktop Application
 
+## Overview
 A Java desktop application for managing a small library system. The application allows users to manage books and loans through a graphical user interface while storing data in a relational database.
 
 The project demonstrates object-oriented design, database integration, and separation of concerns between the GUI, business logic, and data access layers.
 
-Features
+## Features
+- Book management (create, update, and manage records)
+- Loan management for library members
+- Graphical user interface (GUI)
+- Persistent data storage using a SQL database
+- Modular architecture with separate GUI and database layers
+- Unit tests for core components
 
-Book management (create, update, and manage records)
-
-Loan management for library members
-
-Graphical user interface for user interaction
-
-Persistent data storage using a SQL database
-
-Modular architecture with separate database and GUI layers
-
-Unit tests for core components
-
-Project Structure
-
+## Project Structure
 The application follows a layered architecture:
 
-GUI layer – Handles user interaction through a desktop interface
+- **GUI layer** – User interaction through a desktop interface
+- **Application layer** – Core business logic and workflows
+- **Database layer** – Database connections and data operations
+- **Model classes** – Entities such as books, loans, etc.
 
-Database layer – Manages database connections and data operations
+## Technologies
+- Java
+- Maven
+- SQL database (JDBC)
+- Java Swing (GUI)
+- JUnit (testing)
 
-Application layer – Coordinates core application logic
+## How to Run
+1. Clone the repository
+2. Configure your database connection settings
+3. Build the project using Maven:
 
-Model classes – Represent books, loans, and related entities
-
-Technologies
-
-Java
-
-Maven
-
-SQL database (JDBC)
-
-Java Swing (GUI)
-
-JUnit (testing)
+   ```bash
+   mvn clean package
